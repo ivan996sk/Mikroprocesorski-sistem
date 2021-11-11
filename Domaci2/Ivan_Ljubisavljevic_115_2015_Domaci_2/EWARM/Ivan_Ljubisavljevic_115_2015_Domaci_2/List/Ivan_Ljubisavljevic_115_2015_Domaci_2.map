@@ -1,0 +1,328 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  11/Nov/2021  20:37:39
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Exe\Ivan_Ljubisavljevic_115_2015_Domaci_2.out
+#    Map file     =
+#        C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\List\Ivan_Ljubisavljevic_115_2015_Domaci_2.map
+#    Command line =
+#        -f C:\Users\hp\AppData\Local\Temp\EWDA53.tmp
+#        ("C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj\main.o"
+#        "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj\startup_stm32f103x6.o"
+#        "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj\stm32f1xx_hal.o"
+#        "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj\stm32f1xx_hal_cortex.o"
+#        "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj\stm32f1xx_hal_dma.o"
+#        "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj\stm32f1xx_hal_exti.o"
+#        "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj\stm32f1xx_hal_flash.o"
+#        "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj\stm32f1xx_hal_flash_ex.o"
+#        "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj\stm32f1xx_hal_gpio.o"
+#        "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj\stm32f1xx_hal_gpio_ex.o"
+#        "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj\stm32f1xx_hal_msp.o"
+#        "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj\stm32f1xx_hal_pwr.o"
+#        "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj\stm32f1xx_hal_rcc.o"
+#        "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj\stm32f1xx_hal_rcc_ex.o"
+#        "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj\stm32f1xx_hal_tim.o"
+#        "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj\stm32f1xx_hal_tim_ex.o"
+#        "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj\stm32f1xx_it.o"
+#        "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj\system_stm32f1xx.o"
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull
+#        --no_out_extension -o "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Exe\Ivan_Ljubisavljevic_115_2015_Domaci_2.out"
+#        --map "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\List\Ivan_Ljubisavljevic_115_2015_Domaci_2.map"
+#        --config "C:\Users\hp\Desktop\Mikroprocesorski
+#        sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM/stm32f103x6_flash.icf"
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x800'7fff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'27ff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address   Size  Object
+  -------            ----         -------   ----  ------
+"A0":                                       0xec
+  .intvec            ro code   0x800'0000   0xec  startup_stm32f103x6.o [1]
+                             - 0x800'00ec   0xec
+
+"P1":                                      0xb10
+  .text              ro code   0x800'00ec  0x496  stm32f1xx_hal_rcc.o [1]
+  .text              ro code   0x800'0582   0x2e  copy_init3.o [3]
+  .text              ro code   0x800'05b0    0xc  stm32f1xx_hal.o [1]
+  .text              ro code   0x800'05bc   0x40  stm32f1xx_hal.o [1]
+  .text              ro code   0x800'05fc   0xac  stm32f1xx_hal_cortex.o [1]
+  .text              ro code   0x800'06a8  0x1b0  stm32f1xx_hal_gpio.o [1]
+  .text              ro code   0x800'0858   0xf0  main.o [1]
+  .text              ro code   0x800'0948   0x24  stm32f1xx_hal.o [1]
+  .text              ro code   0x800'096c   0x14  memset.o [3]
+  .text              ro code   0x800'0980   0x28  stm32f1xx_hal.o [1]
+  .text              ro code   0x800'09a8   0x44  stm32f1xx_hal_msp.o [1]
+  .text              ro code   0x800'09ec   0x66  ABImemset.o [3]
+  Initializer bytes  const     0x800'0a54   0x38  <for P2-1>
+  .text              ro code   0x800'0a8c   0x28  data_init.o [3]
+  .iar.init_table    const     0x800'0ab4   0x14  - Linker created -
+  .text              ro code   0x800'0ac8   0x1e  cmain.o [3]
+  .text              ro code   0x800'0ae6    0x4  low_level_init.o [2]
+  .text              ro code   0x800'0aea    0x4  exit.o [2]
+  .text              ro code   0x800'0af0    0xa  cexit.o [3]
+  .text              ro code   0x800'0afc   0x14  exit.o [4]
+  .text              ro code   0x800'0b10   0x14  stm32f1xx_it.o [1]
+  .text              ro code   0x800'0b24   0x10  stm32f1xx_hal.o [1]
+  .text              ro code   0x800'0b34   0x14  system_stm32f1xx.o [1]
+  .text              ro code   0x800'0b48   0x10  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0b58    0xc  cstartup_M.o [3]
+  .text              ro code   0x800'0b64    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0b68    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0b6c    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0b70    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0b74    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0b78    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0b7c    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0b80    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0b84    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0b88    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0b8c    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0b90    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0b94    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0b98    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0b9c    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0ba0    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0ba4    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0ba8    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0bac    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0bb0    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0bb4    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0bb8    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0bbc    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0bc0    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0bc4    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0bc8    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0bcc    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0bd0    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0bd4    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0bd8    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0bdc    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0be0    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0be4    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0be8    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0bec    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0bf0    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0bf4    0x4  startup_stm32f103x6.o [1]
+  .text              ro code   0x800'0bf8    0x4  startup_stm32f103x6.o [1]
+  .rodata            const     0x800'0bfc    0x0  copy_init3.o [3]
+                             - 0x800'0bfc  0xb10
+
+"P2", part 1 of 2:                          0x38
+  P2-1                        0x2000'0000   0x38  <Init block>
+    .data            inited   0x2000'0000   0x28  main.o [1]
+    .data            inited   0x2000'0028    0xc  stm32f1xx_hal.o [1]
+    .data            inited   0x2000'0034    0x4  system_stm32f1xx.o [1]
+                            - 0x2000'0038   0x38
+
+"P2", part 2 of 2:                         0x400
+  CSTACK                      0x2000'0038  0x400  <Block>
+    CSTACK           uninit   0x2000'0038  0x400  <Block tail>
+                            - 0x2000'0438  0x400
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+   0x800'0bfc   0x800'7fff  0x7404
+  0x2000'0438  0x2000'27ff  0x23c8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x38:
+           0x800'0a54  0x38
+    1 destination range, total size 0x38:
+          0x2000'0000  0x38
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+C:\Users\hp\Desktop\Mikroprocesorski sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj: [1]
+    main.o                      240       40       40
+    startup_stm32f103x6.o       404
+    stm32f1xx_hal.o             168       12       12
+    stm32f1xx_hal_cortex.o      172
+    stm32f1xx_hal_gpio.o        432
+    stm32f1xx_hal_msp.o          68
+    stm32f1xx_hal_rcc.o       1'174
+    stm32f1xx_it.o               20
+    system_stm32f1xx.o           20        4        4
+    -------------------------------------------------
+    Total:                    2'698       56       56
+
+dl7M_tln.a: [2]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+rt7M_tl.a: [3]
+    ABImemset.o                 102
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 46
+    cstartup_M.o                 12
+    data_init.o                  40
+    memset.o                     20
+    -------------------------------------------------
+    Total:                      260
+
+shb_l.a: [4]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                          4
+    Linker created                        22    1'024
+-----------------------------------------------------
+    Grand Total:              2'990       78    1'080
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'0ab4          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'0ac8          --   Gb  - Linker created -
+?main                    0x800'0ac9         Code  Gb  cmain.o [3]
+AHBPrescTable            0x800'0b38   0x10  Data  Gb  system_stm32f1xx.o [1]
+BusFault_Handler         0x800'0b17    0x2  Code  Gb  stm32f1xx_it.o [1]
+CSTACK$$Base            0x2000'0038          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0438          --   Gb  - Linker created -
+DebugMon_Handler         0x800'0b1d    0x2  Code  Gb  stm32f1xx_it.o [1]
+HAL_Delay                0x800'0981   0x28  Code  Wk  stm32f1xx_hal.o [1]
+HAL_GPIO_Init            0x800'06a9  0x176  Code  Gb  stm32f1xx_hal_gpio.o [1]
+HAL_GPIO_WritePin        0x800'081f    0x8  Code  Gb  stm32f1xx_hal_gpio.o [1]
+HAL_GetTick              0x800'05b1    0xc  Code  Wk  stm32f1xx_hal.o [1]
+HAL_IncTick              0x800'0b25   0x10  Code  Wk  stm32f1xx_hal.o [1]
+HAL_Init                 0x800'0949   0x20  Code  Gb  stm32f1xx_hal.o [1]
+HAL_InitTick             0x800'05bd   0x40  Code  Wk  stm32f1xx_hal.o [1]
+HAL_MspInit              0x800'09a9   0x44  Code  Gb  stm32f1xx_hal_msp.o [1]
+HAL_NVIC_SetPriority     0x800'0631   0x3a  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                         0x800'0617   0x1a  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HAL_RCC_ClockConfig      0x800'0401   0xf4  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                         0x800'0509   0x3a  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq::aPLLMULFactorTable
+                         0x800'0570   0x10  Data  Lc  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq::aPredivFactorTable
+                         0x800'0580    0x2  Data  Lc  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_OscConfig        0x800'00ed  0x30c  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_SYSTICK_Config       0x800'066b   0x28  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HardFault_Handler        0x800'0b13    0x2  Code  Gb  stm32f1xx_it.o [1]
+MemManage_Handler        0x800'0b15    0x2  Code  Gb  stm32f1xx_it.o [1]
+NMI_Handler              0x800'0b11    0x2  Code  Gb  stm32f1xx_it.o [1]
+PendSV_Handler           0x800'0b1f    0x2  Code  Gb  stm32f1xx_it.o [1]
+Region$$Table$$Base      0x800'0ab4          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'0ac8          --   Gb  - Linker created -
+SVC_Handler              0x800'0b1b    0x2  Code  Gb  stm32f1xx_it.o [1]
+SysTick_Handler          0x800'0b21    0x4  Code  Gb  stm32f1xx_it.o [1]
+SystemClock_Config       0x800'0903   0x46  Code  Gb  main.o [1]
+SystemCoreClock         0x2000'0034    0x4  Data  Gb  system_stm32f1xx.o [1]
+SystemInit               0x800'0b35    0x2  Code  Gb  system_stm32f1xx.o [1]
+UsageFault_Handler       0x800'0b19    0x2  Code  Gb  stm32f1xx_it.o [1]
+__NVIC_SetPriority       0x800'05fd   0x1a  Code  Lc  stm32f1xx_hal_cortex.o [1]
+__aeabi_memset           0x800'09ed         Code  Gb  ABImemset.o [3]
+__cmain                  0x800'0ac9         Code  Gb  cmain.o [3]
+__exit                   0x800'0afd   0x14  Code  Gb  exit.o [4]
+__iar_Memset             0x800'09ed         Code  Gb  ABImemset.o [3]
+__iar_Memset_word        0x800'09f5         Code  Gb  ABImemset.o [3]
+__iar_copy_init3         0x800'0583   0x2e  Code  Gb  copy_init3.o [3]
+__iar_data_init3         0x800'0a8d   0x28  Code  Gb  data_init.o [3]
+__iar_program_start      0x800'0b59         Code  Gb  cstartup_M.o [3]
+__low_level_init         0x800'0ae7    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000         Data  Gb  startup_stm32f103x6.o [1]
+_call_main               0x800'0ad5         Code  Gb  cmain.o [3]
+_exit                    0x800'0af1         Code  Gb  cexit.o [3]
+_main                    0x800'0ae3         Code  Gb  cmain.o [3]
+exit                     0x800'0aeb    0x4  Code  Gb  exit.o [2]
+main                     0x800'0859   0x98  Code  Gb  main.o [1]
+memset                   0x800'096d   0x14  Code  Gb  memset.o [3]
+niz                     0x2000'0000   0x28  Data  Gb  main.o [1]
+uwTick                  0x2000'002c    0x4  Data  Gb  stm32f1xx_hal.o [1]
+uwTickFreq              0x2000'0028    0x1  Data  Gb  stm32f1xx_hal.o [1]
+uwTickPrio              0x2000'0030    0x4  Data  Gb  stm32f1xx_hal.o [1]
+
+
+[1] = C:\Users\hp\Desktop\Mikroprocesorski sistemi\IAR\Domaci2\Ivan_Ljubisavljevic_115_2015_Domaci_2\EWARM\Ivan_Ljubisavljevic_115_2015_Domaci_2\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+  2'990 bytes of readonly  code memory
+     78 bytes of readonly  data memory
+  1'080 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

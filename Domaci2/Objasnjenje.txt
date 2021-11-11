@@ -1,0 +1,4 @@
+Koriscen je 7-segmentni ekran sa zajednickom anodom. 
+
+Delay(1000) traje duze od 1s tj traje oko 7s iz nepoznatog razloga sto sam uvedeo u simulaciji u Proteusu. 
+Moguce da proteus racuna neko njegovo vreme(na osnovu procesorskog takta ili drugacije)

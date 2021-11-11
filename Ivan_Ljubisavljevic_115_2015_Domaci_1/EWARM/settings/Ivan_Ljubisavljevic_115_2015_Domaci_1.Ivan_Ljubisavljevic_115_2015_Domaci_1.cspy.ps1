@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\hp\Desktop\Mikroprocesorski sistemi\IAR\Ivan_Ljubisavljevic_115_2015_Domaci_1\EWARM\settings\Ivan_Ljubisavljevic_115_2015_Domaci_1.Ivan_Ljubisavljevic_115_2015_Domaci_1.general.xcl" --backend -f "C:\Users\hp\Desktop\Mikroprocesorski sistemi\IAR\Ivan_Ljubisavljevic_115_2015_Domaci_1\EWARM\settings\Ivan_Ljubisavljevic_115_2015_Domaci_1.Ivan_Ljubisavljevic_115_2015_Domaci_1.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\hp\Desktop\Mikroprocesorski-sistem\Ivan_Ljubisavljevic_115_2015_Domaci_1\EWARM\settings\Ivan_Ljubisavljevic_115_2015_Domaci_1.Ivan_Ljubisavljevic_115_2015_Domaci_1.general.xcl" --backend -f "C:\Users\hp\Desktop\Mikroprocesorski-sistem\Ivan_Ljubisavljevic_115_2015_Domaci_1\EWARM\settings\Ivan_Ljubisavljevic_115_2015_Domaci_1.Ivan_Ljubisavljevic_115_2015_Domaci_1.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\hp\Desktop\Mikroprocesorski sistemi\IAR\Ivan_Ljubisavljevic_115_2015_Domaci_1\EWARM\settings\Ivan_Ljubisavljevic_115_2015_Domaci_1.Ivan_Ljubisavljevic_115_2015_Domaci_1.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\hp\Desktop\Mikroprocesorski sistemi\IAR\Ivan_Ljubisavljevic_115_2015_Domaci_1\EWARM\settings\Ivan_Ljubisavljevic_115_2015_Domaci_1.Ivan_Ljubisavljevic_115_2015_Domaci_1.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "C:\Users\hp\Desktop\Mikroprocesorski-sistem\Ivan_Ljubisavljevic_115_2015_Domaci_1\EWARM\settings\Ivan_Ljubisavljevic_115_2015_Domaci_1.Ivan_Ljubisavljevic_115_2015_Domaci_1.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\hp\Desktop\Mikroprocesorski-sistem\Ivan_Ljubisavljevic_115_2015_Domaci_1\EWARM\settings\Ivan_Ljubisavljevic_115_2015_Domaci_1.Ivan_Ljubisavljevic_115_2015_Domaci_1.driver.xcl" 
 }
